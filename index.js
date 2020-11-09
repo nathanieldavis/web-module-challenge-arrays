@@ -62,14 +62,18 @@ Confirm that an array is exactly 31 flavors. Your function should accept:
     1. an array
     2. Check to see if the array given is 31 falvors
     3. Your function should return a boolean TRUE if the length of the array is 31 and FALSE if the length of the array is NOT 31.
-  
 
 For Example: is31Flavors(originalFlavors) will return true if your code is working properly
 */
 
 
-function is31Flavors(/*your code here*/){
-   /*your code here*/
+function is31Flavors(varArray){
+    if (varArray.length === 31) {
+        return (true);
+    }
+    else {
+        return (false);
+    }
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
